@@ -8,3 +8,76 @@ padding: 20px;font-size: 30px; border-radius: 5px;cursor: pointer;}
 button:hover{background: hsla(219, 43%, 76%, 0.589);}
 input{text-align: center;font-size: 50px;background-color: white;}
 *{background-color: hsla(32, 82%, 48%, 0.568);}
+```css
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 0;
+        padding: 15px;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+
+    #container {
+        width: 100%;
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 25px 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    label {
+        display: block;
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    #numofdice {
+        width: 100%;
+        max-width: 250px;
+        padding: 10px;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto 20px;
+        padding: 12px;
+        font-size: 17px;
+        box-sizing: border-box;
+    }
+
+    #Result {
+        font-size: 20px;
+        margin: 20px 0;
+        word-wrap: break-word;
+    }
+
+    #Resultimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #Resultimages img {
+        width: 80px;
+        max-width: 25%;
+        height: auto;
+    }
+}
+```
