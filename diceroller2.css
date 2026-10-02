@@ -1,0 +1,10 @@
+#container{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+button{color: white;background-color: red; size: 20px;
+padding: 20px;font-size: 30px; border-radius: 5px;cursor: pointer;}
+button:hover{background: hsla(219, 43%, 76%, 0.589);}
+input{text-align: center;font-size: 50px;background-color: white;}
+*{background-color: hsla(32, 82%, 48%, 0.568);}
