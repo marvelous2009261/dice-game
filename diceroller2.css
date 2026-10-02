@@ -1,0 +1,84 @@
+#container{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+button{color: white;background-color: red; size: 20px;
+padding: 20px;font-size: 30px; border-radius: 5px;cursor: pointer;}
+button:hover{background: hsla(219, 43%, 76%, 0.589);}
+input{text-align: center;font-size: 50px;background-color: white;}
+*{background-color: hsla(32, 82%, 48%, 0.568);}
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #container {
+        width: 92%;
+        max-width: 330px;
+        margin: 25px auto;
+        padding: 18px 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    /* Heading */
+    h1 {
+        font-size: 24px;
+        margin: 0 0 18px;
+    }
+
+    /* Label */
+    label {
+        display: inline-block;
+        font-size: 14px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* Number input */
+    #numofdice {
+        width: 70px;
+        padding: 7px;
+        font-size: 14px;
+        text-align: center;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+
+    /* Roll button */
+    button {
+        display: block;
+        width: 100px;
+        padding: 8px 12px;
+        margin: 5px auto 15px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    /* Result text */
+    #Result {
+        font-size: 16px;
+        margin: 12px 0;
+    }
+
+    /* Dice images */
+    #Resultimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+
+    #Resultimages img {
+        width: 55px;
+        height: 55px;
+        object-fit: contain;
+    }
+}
+
